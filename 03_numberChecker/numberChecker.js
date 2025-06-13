@@ -1,9 +1,8 @@
 function numberChecker(number) {
-  if (number === 6) {
+  if (number >= 10) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 // Do not edit below this line

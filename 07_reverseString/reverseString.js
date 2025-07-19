@@ -1,15 +1,20 @@
 const reverseString = function(string) {
-/*
+
     //One Solution
     let ans= "";
     for( i= string.length-1; i>=0; i--){
         ans+=string.charAt(i);
     }
     return ans;
+
+/*
+    let ans="";
+    for (let i= string.length-1; i>=0; i--){
+        ans+=string.at(i);
+    }
+    return ans;
 */
-
-
-    return string.split("").reverse().join("");
+    //return string.split("").reverse().join("");
 
     // If split has no argument every char in the string become an element
     // in the returned array. If split has an empty string then everything

@@ -16,9 +16,13 @@
 function add7(num){
     return num+7;
 }
+let addArrow= (num) =>num+7;
+
 function multiply(num1, num2){
     return num1 * num2;
 }
+
+let mutlt= (num1, num2) => num1 * num2;
 
 function capitalize(word){
     if (typeof word != "string"){
@@ -54,8 +58,10 @@ function lastLetter(word){
 }
 
 console.log(add7(1));
+console.log("Playing around with arrow notation: "+ addArrow(1));
 
 console.log(multiply(3, 9));
+console.log("Playing around with arrow notation: "+ multiply(3,9));
 
 let value= "the below Answer Should have only ONE capital letter IN it."
 console.log(value);

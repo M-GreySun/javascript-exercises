@@ -16,7 +16,7 @@ const add = function() {
 */
 
   for(let i=0; i<arguments.length; i++){
-    if(arguments[i]=== "number"){
+    if(typeof arguments[i]== "number"){
       //console.log("This is a number: "+ arguments[i]);
       sum+=arguments[i];
     }
@@ -28,18 +28,10 @@ const add = function() {
         }
     }
   }
-  console.log("The date type of sum: "+ typeof sum);
-  console.log("The value of sum: "+ sum);
+  
   return sum;
 };
-let value= add([]);
-console.log(value);
-value= add([7,11]);
-console.log(value);
-value =add([7]);
-console.log(value);
-value= add([1, 3, 5, 7, 9]);
-console.log(value);
+
 
 const subtract = function() {
 	
